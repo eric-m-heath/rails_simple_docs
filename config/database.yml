@@ -1,0 +1,16 @@
+common: &common
+  adapter: postgresql
+  username: docsuser
+  password: "1234567890qwertypass" # from psql setup, see Postgresql
+
+development:
+  <<: *common
+  database: devise_simple_docs_development
+
+test:
+  <<: *common
+  database: devise_simple_docs_test
+
+production:
+  <<: *common
+  database: devise_simple_docs_production

@@ -1,0 +1,22 @@
+<% if !@document.errors.blank? %>
+  <div class="alert">
+    The following errors prevented submission of this form:
+    <ul>
+      <% @document.errors.each do |key, value| %>
+        <li><%= "#{key}: #{value}" %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_for @document do |f| %>
+  <%= f.label :category %>
+  <%= collection_select(:document, :category_id, Category.all, :id, :name) %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :body %>
+  <textarea name="document[body]" value="<%= @document.body %>" class="redactor" rows="40">
+  </textarea>
+  <br />
+  <%= f.submit %>
+<% end %>
