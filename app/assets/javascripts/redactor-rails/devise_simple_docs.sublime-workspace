@@ -19,7 +19,7 @@
 			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/documents_controller.rb",
 			"settings":
 			{
-				"buffer_size": 467,
+				"buffer_size": 517,
 				"line_ending": "Unix"
 			}
 		},
@@ -28,6 +28,14 @@
 			"settings":
 			{
 				"buffer_size": 29,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/_document_list.html.erb",
+			"settings":
+			{
+				"buffer_size": 134,
 				"line_ending": "Unix"
 			}
 		},
@@ -44,6 +52,22 @@
 			"settings":
 			{
 				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/_document_form.html.erb",
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 182,
 				"line_ending": "Unix"
 			}
 		},
@@ -72,10 +96,18 @@
 			}
 		},
 		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/shared/_flash_alert.html.erb",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/models/category.rb",
 			"settings":
 			{
-				"buffer_size": 135,
+				"buffer_size": 157,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +115,15 @@
 			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/home/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 832,
+				"buffer_size": 1006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/models/document.rb",
+			"settings":
+			{
+				"buffer_size": 190,
 				"line_ending": "Unix"
 			}
 		}
@@ -185,7 +225,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -219,15 +259,15 @@
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/documents_controller.rb",
 					"settings":
 					{
-						"buffer_size": 467,
+						"buffer_size": 517,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
+								110,
+								110
 							]
 						],
 						"settings":
@@ -254,8 +294,8 @@
 						"selection":
 						[
 							[
-								20,
-								20
+								29,
+								29
 							]
 						],
 						"settings":
@@ -271,6 +311,32 @@
 				},
 				{
 					"buffer": 3,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/_document_list.html.erb",
+					"settings":
+					{
+						"buffer_size": 134,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/categories/_category_list.html.erb",
 					"settings":
 					{
@@ -296,7 +362,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/categories/index.html.erb",
 					"settings":
 					{
@@ -320,15 +386,69 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/_document_form.html.erb",
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/show.html.erb",
+					"settings":
+					{
+						"buffer_size": 182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 4,
+			"selected": 5,
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/layouts/application.html.erb",
 					"settings":
 					{
@@ -356,7 +476,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/categories_controller.rb",
 					"settings":
 					{
@@ -384,7 +504,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 10,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/categories/new.html.erb",
 					"settings":
 					{
@@ -395,8 +515,36 @@
 						"selection":
 						[
 							[
-								32,
-								32
+								420,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/shared/_flash_alert.html.erb",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
 							]
 						],
 						"settings":
@@ -410,19 +558,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/models/category.rb",
 					"settings":
 					{
-						"buffer_size": 135,
+						"buffer_size": 157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								57,
+								57
 							]
 						],
 						"settings":
@@ -436,19 +584,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 13,
 					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/home/index.html.erb",
 					"settings":
 					{
-						"buffer_size": 832,
+						"buffer_size": 1006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								803,
-								803
+								892,
+								892
 							]
 						],
 						"settings":
@@ -456,6 +604,58 @@
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 0,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								105,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/models/document.rb",
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -515,16 +715,20 @@
 		"selected_items":
 		[
 			[
+				"document",
+				"app/models/document.rb"
+			],
+			[
 				"category",
 				"app/models/category.rb"
 			],
 			[
-				"documentdocum",
-				"app/views/documents/_document_form.html.erb"
+				"home",
+				"app/controllers/home_controller.rb"
 			],
 			[
-				"document",
-				"app/controllers/documents_controller.rb"
+				"documentdocum",
+				"app/views/documents/_document_form.html.erb"
 			],
 			[
 				"documen",

@@ -11,9 +11,11 @@
 <% @counter = 1 %>
 <div class='row'>
   <% @all_categories.each do |category| %>
+  <% cat_docs = category.documents.find(:all, order: :updated_at, limit: 5 ) %>
   <div class='span4'>
     <h2><%= category.name %></h2>
-    <p><p><a class='btn' href='<%= category_path(category) %>'>Go now »</a></p>
+    <p><ul><% cat_docs.each do |doc| %><li><%= link_to(doc.title, doc) %></li><% end %></ul></p>
+    <p><a class='btn' href='<%= category_path(category) %>'>Go now »</a></p>
   </div>
     <% if ((@all_categories.count > @counter) &&  (@counter % 3 == 0)) %>
       </div><!-- close the row div -->

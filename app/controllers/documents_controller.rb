@@ -1,7 +1,7 @@
 class DocumentsController < ApplicationController
 
   def index
-    @documents = Document.order('title').all
+    @all_documents = Document.order('created_at').all
   end
 
   def new
@@ -12,6 +12,7 @@ class DocumentsController < ApplicationController
     @user = current_user
     @document = @user.documents.build(params[:document])
     if @document.save
+      flash[:success] = "Document added"
       redirect_to document_path @document
     else
       flash[:error] = "Form not saved"

@@ -1,3 +1,7 @@
+<% if flash.count > 0 %>
+  <%= render 'shared/flash_alert' %>
+<% end %>
+
 <h4><%= @document.title %></h4>
 Author: <%= @document.user.full_name %><br />
 <%= @document.body.html_safe %>
