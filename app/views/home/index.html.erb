@@ -15,51 +15,11 @@
     <h2><%= category.name %></h2>
     <p><p><a class='btn' href='<%= category_path(category) %>'>Go now »</a></p>
   </div>
-  <% @counter +=1 %>
-  <% if (@all_categories.count > @counter) &&  (@counter % 3 == 0) %>
-    </div><!-- close the row div -->
-    <div class='row'><!-- start a new row -->
+    <% if ((@all_categories.count > @counter) &&  (@counter % 3 == 0)) %>
+      </div><!-- close the row div -->
+      <div class='row'><!-- start a new row -->
+    <% end %>
+    <% @counter +=1 %>
   <% end %>
 </div>
 <% end %>
-
-
-
-<% @categories.each do |category| if @all_categories.count > 0 %>
-<% @counter += 1 ||= 1 %>
-<div class="row">
-  <div class="span4">
-    <h2><%= category.name %></h2>
-    <p><a class='btn' href='<%= category_path(category) %>'>Go now »</a>
-  <% if @counter == 3 %>
-</div>
-<div
-  <% end %>
-<% end %>
-
-<!-- Example row of columns -->
-<div class="row">
-  <div class="span4">
-    <h2>Server Issues</h2>
-    <p>Connect to Prism or Prism2 servers and manage Web Servers, Rails, and Sphinx.</p>
-    <p><a class="btn" href="#">View details »</a></p>
-  </div>
-  <div class="span4">
-    <h2>Prism Documentation</h2>
-    <p>Remember all that documentation we did a few months back? Let's put it here!</p>
-    <p><a class="btn" href="#">View details »</a></p>
- </div>
-  <div class="span4">
-    <h2>Aheeva Documentation</h2>
-    <p>Is there any of this? If not, we should probably start some :)</p>
-    <p><a class="btn" href="#">View details »</a></p>
-  </div>
-</div>
-
-<div class="row">
-  <div class="span4">
-    <h2>External Site</h2>
-    <p>Procedures relating to updating and maintaining the external site</p>
-    <p><a class="btn" href="#">View details »</a></p>
-  </div>
-</div>
