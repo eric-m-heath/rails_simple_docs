@@ -1,0 +1,346 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/home_controller.rb",
+			"settings":
+			{
+				"buffer_size": 68,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/documents_controller.rb",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/index.html.erb",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 4253,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/show.html.erb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/controllers/documents_controller.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507165125_create_categories.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507165136_create_documents.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507193238_add_category_id_to_documents.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/models/document.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507193527_add_unique_index_to_categories.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/new.html.erb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/views/layouts/application.html.erb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/views/home/index.html.erb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/views/shared/_login_form.html.erb",
+		"/Users/ericheath/git-projects/devise_simple_docs/Gemfile",
+		"/Users/ericheath/git-projects/devise_simple_docs/config/routes.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/models/comment.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/models/user.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/assets/javascripts/application.js",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/assets/stylesheets/application.css",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507164105_devise_create_users.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/config/environments/development.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/app/controllers/home_controller.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507165145_create_comments.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/db/migrate/20130507174603_add_fields_to_users.rb",
+		"/Users/ericheath/git-projects/devise_simple_docs/config/database.yml",
+		"/Users/ericheath/git-projects/simple_docs/config/database.yml",
+		"/Users/ericheath/git-projects/simple_docs/Gemfile",
+		"/Users/ericheath/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"~/git-projects/prism2/",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"config.action_mailer.default_url_options",
+			"user_id",
+			"pdfinfo",
+			"debugger",
+			"line-cache",
+			"linecache"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/home_controller.rb",
+					"settings":
+					{
+						"buffer_size": 68,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/controllers/documents_controller.rb",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/documents/index.html.erb",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/Users/ericheath/git-projects/devise_simple_docs/app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 4253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1937,
+								1937
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 492.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"documentdocum",
+				"app/views/documents/_document_form.html.erb"
+			],
+			[
+				"document",
+				"app/controllers/documents_controller.rb"
+			],
+			[
+				"documen",
+				"app/controllers/documents_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true
+}

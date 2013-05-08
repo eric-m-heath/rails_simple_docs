@@ -1,7 +1,7 @@
 class DocumentsController < ApplicationController
 
   def index
-
+    @documents = Document.order('title').all
   end
 
   def new

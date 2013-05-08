@@ -7,6 +7,36 @@
   <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
 </div>
 
+<% if @all_categories.count > 0 %>
+<% @counter = 1 %>
+<div class='row'>
+  <% @all_categories.each do |category| %>
+  <div class='span4'>
+    <h2><%= category.name %></h2>
+    <p><p><a class='btn' href='<%= category_path(category) %>'>Go now »</a></p>
+  </div>
+  <% @counter +=1 %>
+  <% if (@all_categories.count > @counter) &&  (@counter % 3 == 0) %>
+    </div><!-- close the row div -->
+    <div class='row'><!-- start a new row -->
+  <% end %>
+</div>
+<% end %>
+
+
+
+<% @categories.each do |category| if @all_categories.count > 0 %>
+<% @counter += 1 ||= 1 %>
+<div class="row">
+  <div class="span4">
+    <h2><%= category.name %></h2>
+    <p><a class='btn' href='<%= category_path(category) %>'>Go now »</a>
+  <% if @counter == 3 %>
+</div>
+<div
+  <% end %>
+<% end %>
+
 <!-- Example row of columns -->
 <div class="row">
   <div class="span4">
