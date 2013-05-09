@@ -8,6 +8,14 @@ class DocumentsController < ApplicationController
     @document = Document.new
   end
 
+  def edit
+    @document = Document.find(params[:id])
+  end
+
+  def update
+    @document = Document.find(params[:document])
+  end
+
   def create
     @user = current_user
     @document = @user.documents.build(params[:document])

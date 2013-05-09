@@ -5,3 +5,4 @@
 <h4><%= @document.title %></h4>
 Author: <%= @document.user.full_name %><br />
 <%= @document.body.html_safe %>
+<p><a class='btn' href='<%= edit_document_path(@document) %>'>Edit</a></p>

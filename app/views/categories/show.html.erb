@@ -1,0 +1,6 @@
+<h2><%= "#{@category.name} Documents" %></h2>
+<ul>
+<% @category.documents.each do |document| %>
+  <li><%= link_to(document.title, document) %></li>
+<% end %>
+</ul>

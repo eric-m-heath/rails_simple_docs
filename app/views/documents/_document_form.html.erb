@@ -13,9 +13,9 @@
   <%= f.label :category %>
   <%= collection_select(:document, :category_id, Category.order('name').all, :id, :name) %>
   <%= f.label :title %>
-  <%= f.text_field :title %>
+  <%= f.text_field :title, class: 'input-xxlarge' %>
   <%= f.label :body %>
-  <textarea name="document[body]" value="<%= @document.body %>" class="redactor" rows="40">
+  <textarea name="document[body]" value="<%= @document.body %>" class="redactor" rows="40"><%= @document.body %>
   </textarea>
   <br />
   <%= f.submit %>

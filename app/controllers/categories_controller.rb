@@ -21,6 +21,10 @@ class CategoriesController < ApplicationController
     end
   end
 
+  def show
+    @category = Category.find(params[:id])
+  end
+
   def get_all_categories
     Category.order('name').all
   end

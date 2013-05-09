@@ -3,7 +3,7 @@
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
   <h1>BDT Docs!</h1>
-  <p>This is a simple site we can use as a repository for our documentation. It uses Devise, PostgreSQL, Sphinx, Knockout.js, and Blueprint.</p>
+  <p>This is a simple site we can use as a repository for our documentation. It uses Bootstrap, Devise, and PostgreSQL. I'd like to incorporate Sphinx as well.</p>
   <p><a href="#" class="btn btn-primary btn-large">Learn more »</a></p>
 </div>
 
@@ -15,7 +15,7 @@
   <div class='span4'>
     <h2><%= category.name %></h2>
     <p><ul><% cat_docs.each do |doc| %><li><%= link_to(doc.title, doc) %></li><% end %></ul></p>
-    <p><a class='btn' href='<%= category_path(category) %>'>Go now »</a></p>
+    <p><a class='btn' href='<%= category_path(category) %>'>View all »</a></p>
   </div>
     <% if ((@all_categories.count > @counter) &&  (@counter % 3 == 0)) %>
       </div><!-- close the row div -->
